@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView_main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/textview_main"
+
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicked_go_settings"
+            android:text="@string/settings" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_main_celsius_to_fahren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_main_move_to_cTf"
+        android:onClick="buttonClicked_celsius_to_fahren"/>
+
+    <Button
+        android:id="@+id/button_main_fahren_to_celsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_main_move_to_fTc"
+        android:onClick="buttonClicked_fahren_to_celsius"/>
+
+</LinearLayout>
