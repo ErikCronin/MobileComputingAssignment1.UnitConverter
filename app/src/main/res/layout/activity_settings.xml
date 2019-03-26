@@ -64,7 +64,8 @@
                 android:layout_weight="1"
 
                 android:text="@string/medium"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                android:onClick="buttonClicked_make_text_medium"/>
         </TableRow>
 
         <TableRow

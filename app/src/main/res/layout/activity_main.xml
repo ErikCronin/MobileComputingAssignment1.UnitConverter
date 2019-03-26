@@ -14,7 +14,7 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/textView_main"
+            android:id="@+id/main_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -43,5 +43,13 @@
         android:layout_weight="1"
         android:text="@string/button_main_move_to_fTc"
         android:onClick="buttonClicked_fahren_to_celsius"/>
+
+    <Button
+        android:id="@+id/button_main_kilo_to_mile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/kilo_to_mile"
+        android:onClick="buttonClicked_kilo_to_mile"/>
 
 </LinearLayout>

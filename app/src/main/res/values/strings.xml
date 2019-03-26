@@ -97,4 +97,6 @@
     <string name="text_sample">Text Sample:</string>
     <string name="quick_brown_fox">The quick brown fox jumps over the lazy dog.</string>
     <string name="sphinx">Sphinx of black quartz, judge my vow.</string>
+    <string name="kilo_to_mile">Kilometres to Miles</string>
+    <string name="kilometres_to_miles_converter">Kilometres to Miles Converter</string>
 </resources>
